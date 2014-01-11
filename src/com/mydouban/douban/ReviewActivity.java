@@ -77,7 +77,7 @@ public class ReviewActivity extends BaseListActivity {
 			public void onClick(View v) {
 				finish();
 			}
-		});
+		}); 
 		
 		
 

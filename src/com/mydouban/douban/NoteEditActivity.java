@@ -1,4 +1,4 @@
-package com.chenyc.douban;
+﻿ package com.chenyc.douban;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
