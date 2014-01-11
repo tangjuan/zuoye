@@ -10,7 +10,7 @@ import com.google.gdata.data.douban.Tag;
  * 
  * @author Lorin
  * 
- */
+ */ 
 public class Subject implements Serializable, Comparable<Subject> {
 	/**
 	 * 

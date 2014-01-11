@@ -10,7 +10,7 @@ public class Group implements Serializable{
 	public Group(String url, String name, String totalPeople, String imgUrl) {
 		super();
 		this.url = url;
-		this.name = name;
+		this.name = name; 
 		this.totalPeople = totalPeople;
 		this.imgUrl = imgUrl;
 	}

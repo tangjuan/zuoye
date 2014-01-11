@@ -1,6 +1,6 @@
 ﻿package com.chenyc.douban.entity;
 
-import java.io.Serializable;
+import java.io.Serializable; 
 import java.util.List;
 
 import android.graphics.Bitmap;
@@ -11,7 +11,7 @@ public class Review implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private String url;
+	private String url; 
 	private String title;
 	private String published;
 	private String updated;

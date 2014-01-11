@@ -9,7 +9,7 @@ public class Topic implements Serializable{
 	private String url;
 	private String author;
 	private String reply;
-	private String lastdate;
+	private String lastdate;  
 	public String getTitle() {
 		return title;
 	}
