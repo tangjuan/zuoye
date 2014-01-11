@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton; 
-import android.widget.ListView;
+import android.widget.ListView; 
 import android.widget.TextView;
 
 public class FavActivity extends BaseListActivity {
@@ -20,7 +20,7 @@ public class FavActivity extends BaseListActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState); 
 		setContentView(R.layout.fav);
 
 		setListAdapter(new ArrayAdapter<String>(FavActivity.this,

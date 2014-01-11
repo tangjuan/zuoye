@@ -1,4 +1,4 @@
-package com.chenyc.douban;
+﻿package com.chenyc.douban;
 
 import android.app.AlertDialog;
 import android.app.TabActivity;
@@ -8,10 +8,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
-import android.view.Menu;
+import android.view.Menu; 
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
+import android.view.Window; 
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
@@ -32,7 +32,7 @@ public class MainTabActivity extends TabActivity {
 	}
 
 	private View prepareTabView(Context context, int titleId, int drawable) {
-		View view = LayoutInflater.from(context).inflate(R.layout.tab_main_nav,
+		View view = LayoutInflater.from(context).inflate(R.layout.tab_main_nav, 
 				null);
 		TextView tv = (TextView) view.findViewById(R.id.tvTitle);
 		tv.setText(getText(titleId).toString());

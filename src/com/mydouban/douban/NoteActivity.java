@@ -1,4 +1,4 @@
-package com.chenyc.douban;
+﻿package com.chenyc.douban;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
+import android.view.MenuItem; 
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
