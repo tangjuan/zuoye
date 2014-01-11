@@ -1,4 +1,4 @@
-package com.chenyc.douban.util;
+﻿package com.chenyc.douban.util;
 
 import com.chenyc.douban.R;
 import com.chenyc.douban.entity.Subject;
@@ -8,7 +8,7 @@ import java.util.Map;
 public class StatusUtil {
 	public static Map<Integer, String> statusDescMap = new HashMap<Integer, String>();;
 	public static Map<Integer, String> statusMap = new HashMap<Integer, String>();
-	public static Map<Integer, Integer> buttonStatusMap = new HashMap<Integer, Integer>();;
+	public static Map<Integer, Int eger> buttonStatusMap = new HashMap<Integer, Integer>();;
 
 	static {
 

@@ -1,4 +1,4 @@
-package com.chenyc.douban.util;
+﻿package com.chenyc.douban.util;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.htmlparser.jericho.Element;
+import net.htmlparser.jericho.Element; 
 import net.htmlparser.jericho.HTMLElementName;
 import net.htmlparser.jericho.Source;
 
@@ -21,7 +21,7 @@ import org.apache.http.HttpStatus;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.CookieStore;
-import org.apache.http.client.HttpClient;
+import org.apache.http.client.HttpClient; 
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
@@ -53,7 +53,7 @@ public class NetUtil {
 	private static String secret = "4b08025f5bc7f1a2"; //请用自己申请的secret替换
 
 	private static DoubanService doubanService = new DoubanService(
-			"doubanreader", apiKey, secret);
+			"doubanreader", apiKey,  secret);
 
 	// 登录用户的ID
 	private static String uid;

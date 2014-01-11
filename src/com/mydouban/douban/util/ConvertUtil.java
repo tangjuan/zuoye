@@ -1,4 +1,4 @@
-package com.chenyc.douban.util;
+﻿package com.chenyc.douban.util;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import com.chenyc.douban.entity.Review;
 import com.chenyc.douban.entity.Subject;
 import com.google.gdata.data.Person;
 import com.google.gdata.data.TextContent;
-import com.google.gdata.data.douban.Attribute;
+import com.google.gdata.data.douban.Attribute; 
 import com.google.gdata.data.douban.CollectionEntry;
 import com.google.gdata.data.douban.CollectionFeed;
 import com.google.gdata.data.douban.ReviewEntry;

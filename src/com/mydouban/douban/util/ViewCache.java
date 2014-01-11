@@ -11,7 +11,7 @@ public class ViewCache {
 	private ImageView imageView;
 
 	public ViewCache(View baseView) {
-		this.baseView = baseView;
+		this.baseView = baseView; 
 	}
 
 	public ImageView getImageView() {
